@@ -232,7 +232,7 @@ export class Project {
                     },
                     "seed": input.seed,
                     "imageModelSettings": {
-                        "imageModel": "GEM_PIX", // TODO: Lets experiment with this for now
+                        "imageModel": input.model, // TODO: Lets experiment with this for now
                         "aspectRatio": input.aspectRatio
                     },
                     "userInstruction": input.prompt,
